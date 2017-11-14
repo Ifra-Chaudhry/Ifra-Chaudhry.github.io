@@ -1,48 +1,42 @@
-.bio, .portfolio {
-    padding: 5% 0;
-    width: 100% !important;
-    overflow: auto;
+/* CSS stands for cascading style sheets */
+
+/* General form of a ruleset:
+    Selector {
+      declaration block
+    }
+*/
+
+h1 {
+  background-color: red;
+  color: white;
+  font-family: Helvetica;
 }
 
-#profile-image {
-    height: 100% !important;
-    width: auto;
-    padding: 0 5% 0 0;
-    float: left;
+ul {
+  color: blue
 }
 
-footer {
-    margin: 0 5%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+ul li {
+  color: red;
 }
 
-.btn {
-    flex: 0 1 auto;
-    color: grey;
+.styled {
+  color: white;
+  background-color: black;
+  font-family: Helvetica, Arial;
+  text-transform: uppercase;
+  font-size: 40px;
+  width: 50%;
 }
 
-.portfolio-item-image {
-    max-width: 100%;
-    flex: 0 1 auto;
+#header-one {
+  color: #FFA500;
 }
 
-.portfolio-item {
-    flex: 0 1 auto;
-    padding: 0 2%;
-    text-align: center;
-    color: grey;
+img {
+  border-radius: 50%;
+  width: 300px;
 }
 
-.portfolio-row {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 0 5% 0;
-}
-
-body {
-    margin: 5%;
-}
+/* a list of different properties
+https://www.w3schools.com/cssref/ */
