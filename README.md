@@ -1,1 +1,1 @@
-# Ifra-Chaudhry.github.io
+# IfraChaudhry.github.io
